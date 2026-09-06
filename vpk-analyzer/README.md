@@ -61,6 +61,7 @@ The frontend runs at the URL printed by Vite, normally `http://127.0.0.1:5173`.
 
 - `POST /api/vpk/upload` - validate the `.vpk` filename and store a generated-ID upload
 - `GET /api/vpk/{id}/info` - format, confidence, counts, sizes, and safe metadata
+- `GET /api/vpk/{id}/analyze` - complete analysis response with metadata and tree entries
 - `GET /api/vpk/{id}/tree` - virtual file and directory entries
 - `GET /api/vpk/{id}/file/{path}` - safe text, JSON, XML, and image preview/download
 - `POST /api/vpk/{id}/extract` - extract all files into the controlled `extracted/` directory
